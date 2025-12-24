@@ -14,6 +14,7 @@ function updateTime(){
     document.querySelector('.h13').textContent=`${day}:${hour}:${minuts}:${second}`
 
 }
+let kmk = 0
 updateTime()
 
 setInterval(updateTime,1000)
